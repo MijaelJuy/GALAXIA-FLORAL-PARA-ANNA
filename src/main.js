@@ -163,19 +163,19 @@ const tracks = [
   {
     title: 'Cuando Me Enamoro',
     artist: 'Enrique Iglesias',
-    src: '/assets/audio/cuando-me-enamoro.mp3',
+    src: `${import.meta.env.BASE_URL}assets/audio/cuando-me-enamoro.mp3`,
     durationLabel: '3:20',
   },
   {
     title: 'Ojitos Lindos',
     artist: 'Bad Bunny ft. Bomba Estéreo',
-    src: '/assets/audio/ojitos-lindos.mp3',
+    src: `${import.meta.env.BASE_URL}assets/audio/ojitos-lindos.mp3`,
     durationLabel: '4:19',
   },
   {
     title: 'Es Por Ti',
     artist: 'Juanes',
-    src: '/assets/audio/es-por-ti.mp3',
+    src: `${import.meta.env.BASE_URL}assets/audio/es-por-ti.mp3`,
     durationLabel: '4:02',
   },
 ]
